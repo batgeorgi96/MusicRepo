@@ -2,9 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
-using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using MusicRepo.Data;
-using System;
+using MusicRepo.Infrastructure.Data;
 
 namespace MusicRepo.Data.Migrations
 {

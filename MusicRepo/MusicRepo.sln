@@ -5,6 +5,10 @@ VisualStudioVersion = 17.9.34701.34
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicRepo", "MusicRepo.csproj", "{F4DBBFF6-467E-4ECE-97F1-794F6D616BE4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicRepo.Core", "..\MusicRepo.Core\MusicRepo.Core.csproj", "{F6BDE259-A455-4AD8-9C02-1E1C80C96239}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicRepo.Infrastructure", "..\MusicRepo.Infrastructure\MusicRepo.Infrastructure.csproj", "{FBFC66DF-8486-4876-9F56-2623359B006F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{F4DBBFF6-467E-4ECE-97F1-794F6D616BE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F4DBBFF6-467E-4ECE-97F1-794F6D616BE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F4DBBFF6-467E-4ECE-97F1-794F6D616BE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6BDE259-A455-4AD8-9C02-1E1C80C96239}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6BDE259-A455-4AD8-9C02-1E1C80C96239}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6BDE259-A455-4AD8-9C02-1E1C80C96239}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6BDE259-A455-4AD8-9C02-1E1C80C96239}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBFC66DF-8486-4876-9F56-2623359B006F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBFC66DF-8486-4876-9F56-2623359B006F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBFC66DF-8486-4876-9F56-2623359B006F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBFC66DF-8486-4876-9F56-2623359B006F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
