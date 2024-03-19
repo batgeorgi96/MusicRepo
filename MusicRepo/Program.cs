@@ -11,6 +11,8 @@ namespace MusicRepo
 
             builder.Services.AddControllersWithViews();
 
+            builder.Services.AddApplicationServices();
+
             var app = builder.Build();
 
             if (app.Environment.IsDevelopment())
